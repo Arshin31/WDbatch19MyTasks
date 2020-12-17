@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BRIAN DUDEY</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        #outer {
+            margin: auto;
+            width: 70%;
+        }
+
+        #div1 {
+            background-color: rgb(97, 94, 94);
+            padding: 100px;
+
+        }
+
+        #div2 {
+            background-color: rgb(243, 239, 239);
+            padding: 20px;
+        }
+
+        #div3 {
+            background-color: rgb(97, 94, 94);
+            padding: 15px;
+        }
+
+        .mystyle1 {
+            position: absolute;
+            margin: auto;
+            padding: 20px;
+            width: 130px;
+            height: 130px;
+            top: 30px;
+            left: 675px;
+            border: 3px dashed rgb(241, 221, 41);
+            border-radius: 50%;
+            background-image: url("dudey.jpg");
+            background-size: contain;
+        }
+
+        #name {
+            position: relative;
+            margin: auto;
+            height: 75px;
+            width: 500px;
+            background-color: rgb(241, 221, 41);
+            top: -87px;
+            border-radius: 3px;
+            text-align: center;
+            font-size: 65px;
+        }
+
+        #address p {
+            position: relative;
+            text-align: center;
+            top: -90px;
+            font-size: 20px;
+            border-bottom: 1px solid grey;
+            padding: 5px;
+        }
+
+        #left {
+            top: -60px;
+            position: relative;
+            float: left;
+            width: 47%;
+            padding: 10px;
+            padding-left: 20px;
+
+
+        }
+
+        #right {
+            position: relative;
+            top: -60px;
+            float: right;
+            width: 47%;
+            padding: 10px;
+            padding-right: 20px;
+
+        }
+
+        .icon1 {
+            border: 1px dashed #ffbb00;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-image: url("1.png");
+            background-size: contain;
+        }
+
+        .icon2 {
+            border: 1px dashed #ffbb00;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-image: url("bag.png");
+            background-size: contain;
+        }
+
+        .icon3 {
+            border: 1px dashed #ffbb00;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-image: url("beaker.png");
+            background-size: contain;
+        }
+
+        .icon4 {
+            border: 1px dashed #ffbb00;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-image: url("edu2.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            
+        }
+
+        span {
+            margin-left: 50px;
+            margin-top: 2px;
+            font-size: 30px;
+            color: gray;
+        }
+
+        #left p {
+            font-size: 18px;
+        }
+
+        #title {
+            position: relative;
+            top: 5px;
+        }
+
+        li {
+            font-size: 18px;
+        }
+
+        table {
+            width: 100%;
+            font-size: 18px;
+        }
+
+        @media screen and (-webkit-min-device-pixel-ratio:0) {
+            input[type='range'] {
+                overflow: hidden;
+                width: 80px;
+                -webkit-appearance: none;
+                background-color: #9a905d;
+            }
+
+            input[type='range']::-webkit-slider-runnable-track {
+                height: 10px;
+                -webkit-appearance: none;
+                color: rgb(241, 221, 41);
+                margin-top: -1px;
+            }
+
+            input[type='range']::-webkit-slider-thumb {
+                width: 10px;
+                -webkit-appearance: none;
+                height: 10px;
+                cursor: ew-resize;
+                background: #434343;
+                box-shadow: -80px 0 0 80px rgb(241, 221, 41);
+            }
+
+        }
+
+        #line {
+            position: absolute;
+            top: 350px;
+            left: 455px;
+            height: 870px;
+            width: 300px;
+            border-right: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="outer">
+        <div id="div1"></div>
+
+        <div id="div2"></div>
+
+        <div id="div3"></div>
+
+        <div class="mystyle1"></div>
+
+        <div id="name">BRIAN DUDEY</div>
+
+        <div id="address">
+            <p>
+                N. Damen Avenue, Chicago 99999 | 999-999-9999 | hello@kickresume.com | www.kickresume.com
+            </p>
+        </div>
+        <div id="line"></div>
+        <div id="left">
+            <div class="icon1">
+                <span>Profile</span>
+            </div>
+            <p>
+                Innovative optimized solution seeker. Excited to be at the deployment phase of my new career as a web
+                developer. I am ambitious, adventurous, assiduous, animated and an a litteration advocate.
+            </p>
+            <div class="icon3">
+                <span>Skills</span>
+            </div>
+            <div style="font-weight: bold;text-align: center;">Technical Skills</div>
+            <table>
+                <tr>
+                    <td>
+                        JavaScript
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range" min="1" max="100" value="90">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CSS
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range" min="1" max="100" value="65">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        HTML
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range" min="1" max="100" value="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        React
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range" min="1" max="100" value="10"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Redux
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Mongo
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Deployment
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range" min="1" max="100" value="70">
+                    </td>
+                </tr>
+            </table>
+            <div style="font-weight: bold;text-align: center;">Additional Skills</div>
+            <table style="margin-bottom: 10px;">
+                <tr>
+                    <td>
+                        Project Management
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Recruitment
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Business Development
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Editing
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Fundraising
+                    </td>
+                    <td style="text-align: right;">
+                        <input type="range">
+                    </td>
+                </tr>
+            </table>
+            <div class="icon2">
+                <span>Experience</span>
+            </div>
+            <div id="title">
+                <b>Event Manager 03/2014-02/2017</b><br>C3 Presents Washington DC
+                <div>
+                    <ul>
+                        <li style="list-style-type:filledcircle">Lead and Execute all phases of event planning and
+                            production spanning committiee recruitment training, Vender relationships and onsite
+                            facillitations.</li>
+                        <li style="list-style-type:filledcircle">Brought new business to the organisation through
+                            rentless
+                            networking and stewardship which helped the company win the bid for the state department
+                            summit
+                            on the Middle East and Companies largest Civic event to date</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="right">
+            <ul>
+
+                <li style="list-style-type:filledcircle">Exercise fiscal control over budget creation, tracking and
+                    reporting collaborate with employees at all organizational levels to advance cohensive
+                    operations.</li>
+            </ul>
+            <div class="icon2">
+                <span>Experience</span>
+            </div>
+            <div id="title">
+                <b>Community Relations 06/2011-01/2014</b><br>Gay & Lesbian Elder Housing, Los Angeles
+                <div>
+                    <ul>
+                        <li style="list-style-type:filledcircle">Arrranging presentations and pitch deck</li>
+                        <li style="list-style-type:filledcircle">Designing a PR plan and establishing important focus
+                            points.</li>
+                        <li style="list-style-type:filledcircle">Designing, creating and managing content across
+                            multiple
+                            communication platform.</li>
+                        <li style="list-style-type:filledcircle">Building relationships with key media players.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="icon4">
+                <span>Education</span>
+            </div>
+            <div id="title">
+                <b>Engineering Immersion Program 11/2018-06/2018</b><br>Thinkful, Chicago, IL<br><br>
+                Project-focused intensive program with emphasis on Mongo, Express, React and Javascript (MERN) technical
+                stack
+                <div>
+                    <ul>
+                        <li style="list-style-type:filledcircle">Developed a full stack web application, "RenewU", using
+                            React that allows users to explore various aspects of meditation. Users progress is stored
+                            on a backend created using Node and MongoDB</li>
+                        <li style="list-style-type:filledcircle">Developed a language learning app, "Foodie Phonetics"
+                            using spaced repetition and a linked list data structure. React was used to create front end
+                            components while Node and Mogno were used to create a backend that stores user data.</li>
+                        <li style="list-style-type:filledcircle">Developed a concierge app, "Pkey", for individuals
+                            looking for curated suggestions when visiting a new place. React was used to develop the
+                            front end which includes real time chat, drag and drop and variety of advanced features. The
+                            backend built using Node, Express and Mongo takes advantage of well developed RESTful API,
+                            Geospatial searching and user authentication with JWT.</li>
+                    </ul>
+                </div>
+            </div>
+            <b>BA English 09/2001-09/2005</b><br>
+            University Of California, Los Angeles.
+        </div>
+</body>
+
+</html>
