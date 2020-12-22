@@ -1,0 +1,112 @@
+.heading{
+    font-weight: bolder;
+    text-align: center;   
+}
+.sub-heading{
+    font-weight: bolder;
+}
+.img-bg{
+    background-color: rgb(196, 193, 193);
+}
+.img{
+    height: 200px;
+}
+.button{
+    padding-top: 0;
+}
+.parent{
+    position: relative;
+}
+hr{
+    margin: 0;
+    border: 0.5px solid black;
+    background-color: black;
+}
+.label{
+    background-color: rgb(247, 243, 26);
+    color: white;
+    display: inline;
+    padding: 2% 3% 2% 2%;
+    clip-path: polygon(0 0, 94% 0, 100% 100%, 0% 100%);
+}
+.page-no {
+    display: inline-block;
+    color: white;
+    visibility: visible;
+    text-align: center;
+    position: absolute;
+    bottom: 25%;
+    right:  10%;
+    padding: 3% 4%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+.white-text{
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    width: 80%;
+    
+}
+.hidden{
+   visibility: hidden;
+}
+.wt{
+    bottom: 10%;
+    right:  5%;
+    padding: 1% 1.7%;
+}
+.rel{
+    position: relative;
+}
+.sp{
+    padding: 1.5% 2.5%;
+    bottom: 10px;
+}
+.bold{
+    font-weight: bolder;
+}  
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.fontst{
+    font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (max-width: 990px) {
+    .inv-res{
+        display: none;
+    }
+    .modify-res{
+        bottom: 5%;
+        right: 5%;
+    }
+  }
+
+
+  @media screen and (max-width: 1200px) {
+    .heading{
+        font-size: 5rem;
+    }
+  }
+
+  @media screen and (max-width: 990px) {
+    .heading{
+        font-size: 4rem;
+    }
+  }
+
+  @media screen and (max-width: 765px) {
+    .heading{
+        font-size: 3rem;
+    }
+  }
+  @media screen and (max-width: 528px) {
+    .heading{
+        font-size: 2.5rem;
+    }
+  }
