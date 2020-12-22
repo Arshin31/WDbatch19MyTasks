@@ -1,0 +1,52 @@
+@media only screen and (min-width: 576px){
+    .right{
+        text-align: right;
+    }
+    .news-header{
+        font-size: 80px;
+        font-weight: 900;
+        text-align: center;
+        letter-spacing: 15px;
+    }
+}
+body{
+    background-color: gray;
+    font-size: 13px;
+}
+.container{
+    background-color: white;
+}
+
+.header-text{
+    font-size: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.fontst{
+    font-family: 'Dancing Script', cursive;
+}
+
+
+@media only screen and (max-width: 576px){
+    .news-header{
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    
+}
+
+.img-badge{
+    position: absolute;
+    top: -7px;
+}
+
+.badge{
+    font-size: 15px;
+}
+
+.red-label{
+    color: #dc3545;
+    text-align: center;
+    font-weight: 900;
+}
