@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS practise</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Sniglet', cursive;
+            font-size: 18px;
+        }
+
+        #outline {
+            margin: auto;
+            width: 80%;
+        }
+
+        #div1 {
+            background-color: rgb(97, 94, 94);
+            padding: 80px;
+
+        }
+
+        #div2 {
+            background-color: rgb(243, 239, 239);
+            padding: 20px;
+        }
+
+        #div3 {
+            background-color: rgb(97, 94, 94);
+            padding: 15px;
+            width: auto;
+        }
+
+        .mystyle1 {
+            position: absolute;
+            margin: auto;
+            padding: 20px;
+            width: 130px;
+            height: 130px;
+            top: 62px;
+            left: 675px;
+            border: 3px dashed rgb(241, 221, 41);
+            border-radius: 50%;
+            background-image: url("https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg");
+            background-size: contain;
+        }
+
+        #line {
+            position: absolute;
+            top: 370px;
+            left: 455px;
+            height: 950px;
+            width: 300px;
+            border-right: 1px solid black;
+        }
+
+        #address p {
+            position: relative;
+            text-align: center;
+            top: -20px;
+            font-size: 20px;
+            border-bottom: 1px solid grey;
+            width: auto;
+            padding: 5px;
+        }
+
+        .left {
+            top: -30px;
+            position: relative;
+            float: left;
+            width: 46%;
+            padding: 10px;
+            padding-left: 30px;
+        }
+
+        .right {
+            top: -30px;
+            position: relative;
+            float: right;
+            width: 46%;
+            padding: 10px;
+            padding-right: 30px;
+        }
+
+        .icon {
+            border: 1px solid black;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-image: url("bag.png");
+            background-size: contain;
+        }
+
+        #name {
+            position: relative;
+            margin: auto;
+            height: 75px;
+            width: 500px;
+            background-color: rgb(241, 221, 41);
+            top: 135px;
+            border-radius: 3px;
+            text-align: center;
+            font-size: 65px;
+        }
+
+        .icon1 {
+            border: 1px dashed #ffbb00;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background-size: contain;
+        }
+
+        i {
+            border: 2px dashed yellow;
+            border-radius: 50%;
+        }
+
+        td {
+            width: 40%;
+        }
+
+        #title {
+            position: relative;
+            top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="outline">
+        <div id="div1">
+            <div class="mystyle1"></div>
+            <div id="name">Arshin Sayyad</div>
+        </div>
+        <div id="div2"></div>
+
+        <div id="div3"></div>
+        <div>
+            <div id="address">
+                <p>Pune-Maharashtra, India 413102 | 8530707848 | <a href="">arshin3105@gmail.com</a> |
+                    www.kickresume.com</p>
+            </div>
+            <div id="line"></div>
+            <div class="left">
+                <div style="right: 40px;">
+                    <i class="fa fa-user fa-5px"></i>
+                    <span style="font-size: 24px;">Profile</span>
+                </div>
+                <p>As a Beginner in the Industrial field, while making a positive contribution, I would like to build a
+                    career,
+                    making the best use of my analytical, creative, and logical skills to perform the job efficiently
+                </p>
+
+
+                <div>
+                    <i class="fa fa-flask fa-5px"></i>
+                    <span style="font-size: 24px;">Skills</span>
+                </div>
+                <table>
+                    <caption style="text-align: center;"><b>Technical Skills</b></caption>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td><input type="range" min="1" max="100" value="80" readonly></td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td><input type="range" min="1" max="100" value="89"></td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td><input type="range" min="1" max="100" value="92"></td>
+                    </tr>
+                    <tr>
+                        <td>React</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td>Redux</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td>Mongo</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td>Deployment</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                </table>
+                <table>
+                    <caption style="text-align: center;"><b>Additional Skills</b></caption>
+                    <tr>
+                        <td>Project Management</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td>Recruitment</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td>Business Development</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td>Editing</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                    <tr>
+                        <td>Fundraising</td>
+                        <td><input type="range" min="1" max="100" value="70"></td>
+                    </tr>
+                </table><br>
+
+                <div>
+                    <i class="fa fa-shopping-bag fa-5px"></i>
+                    <span style="font-size: 24px;">Experience</span>
+                </div>
+                <div id="title">
+                    <b>Event Manager 03/2014-02/2017</b><br>C3 Presents Washington DC
+                    <div>
+                        <ul>
+                            <li style="list-style-type:filledcircle">Lead and Execute all phases of event planning and
+                                production spanning committiee recruitment training, Vender relationships and onsite
+                                facillitations.</li>
+                            <li style="list-style-type:filledcircle">Brought new business to the organisation through
+                                rentless
+                                networking and stewardship which helped the company win the bid for the state department
+                                summit
+                                on the Middle East and Companies largest Civic event to date</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li style="list-style-type:filledcircle">Exercise fiscal control over budget creation, tracking and
+                        reporting collaborate with employees at all organizational levels to advance cohensive
+                        operations.
+                    </li>
+                </ul>
+                <div>
+                   <i class="fa fa-shopping-bag fa-5px"></i>
+                   <span style="font-size: 24px;">Experience</span> 
+                </div>
+                <div id="title">
+                    <b>Community Relations 06/2011-01/2014</b><br>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    <div>
+                        <ul>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ut, sunt consectetur, distinctio nulla quos</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis voluptate corrupti ipsum rerum quae animi.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis iure tempore doloribus amet. Saepe numquam aut qui sed minima aperiam illum totam sapiente corporis, labore alias ratione, accusantium nemo maxime.</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <i class="fa fa-graduation-cap fa-5px"></i>
+                    <span style="font-size: 24px;">Education</span>
+                </div>
+                <div id="title">
+                    <b>BE IT Engineering 08/2017-07/2020</b><br>Pune-Maharashtra 
+                    <div>
+                        <table>
+                            <tr>
+                                <td>Degree</td>
+                                <td>University</td>
+                                <td>CGPA</td>
+                            </tr>
+                            <tr>
+                                <td>BE IT</td>
+                                <td>SPPU</td>
+                                <td>6.75</td>
+                            </tr>
+                            <tr>
+                                <td>Diploma</td>
+                                <td>MSBTE</td>
+                                <td>65.88</td>
+                            </tr>
+                            <tr>
+                                <td>SSC</td>
+                                <td>Maharashtra state board</td>
+                                <td>72.60</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div>
+                        <p>Project-focused intensive program with emphasis on Mongo, Express, React and Javascript (MERN) technical stack</p>
+                        <ul>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                            <li style="list-style-type: filledcircle;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+                        </ul>
+                    </div>
+                    <div id="title">
+                        <b>BA English 09/2001-09/2005</b><br>lorem ipsum dolor sit, amet 
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>
