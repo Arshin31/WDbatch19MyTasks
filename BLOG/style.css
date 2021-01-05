@@ -1,0 +1,156 @@
+body {
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    /* font-size: 80px; */
+    font-weight: 800;
+  }
+  
+  .container-fluid {
+    padding: 0px;
+  }
+  .image-div {
+    /* position: absolute; */
+    margin-bottom: 50px;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    top: 0;
+  }
+  .my-img {
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .layer {
+    background-color: #212529;
+    position: absolute;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+  }
+  
+  nav {
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+  }
+  .navbar {
+    z-index: 100;
+    padding: 15px;
+    position: absolute;
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .navbar {
+      background-color: transparent;
+    }
+  
+    .navbar-text {
+      color: white !important;
+    }
+    .nav-link {
+      color: #fff !important;
+    }
+    .nav-link:hover {
+      color: #ffffffcc !important;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .navbar {
+      background-color: white;
+    }
+    .navbar-text {
+      color: black !important;
+    }
+    .nav-link {
+      color: black !important;
+    }
+    .nav-link:hover {
+      color: gray !important;
+    }
+  }
+  
+  .navbar-text {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  
+  .nav-link {
+    font-size: 15px;
+  }
+  
+  .heading {
+    position: relative;
+    z-index: 100;
+    top: 200px;
+    color: white;
+    text-align: center;
+  }
+  .headline {
+    font-size: 80px;
+    font-weight: 800;
+    font-weight: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  .tagline {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  .login {
+    position: fixed;
+    right: 0;
+    background-color: white;
+    top: 100px;
+  }
+  .btn-login {
+    font-size: 15px;
+    font-weight: 900;
+    color: #0085a1;
+    border-color: #0085a1;
+    border-radius: 0px;
+    letter-spacing: 1px;
+  }
+  
+  .ttitle {
+    font-weight: 900;
+    font-size: 40px;
+  }
+  
+  .tsubtitle {
+    font-weight: 400;
+  }
+  
+  .ttitle,
+  .tsubtitle {
+    color: black;
+  }
+  .ttitle:hover,
+  .tsubtitle:hover {
+    color: #0085a1;
+  }
+  
+  .preview > a {
+    text-decoration: none;
+  }
+  
+  .postm {
+    color: gray;
+    font-weight: 400;
+  }
+  
+  .footer-fab {
+    color: black;
+  }
+  .footer-fab:hover {
+    color: #0085a1;
+  }
+  .copyright {
+    text-align: center;
+  }
+  
