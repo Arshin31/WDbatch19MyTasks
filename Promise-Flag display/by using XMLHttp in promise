@@ -1,0 +1,3 @@
+In this snippet i have used promise along with XmlHttp req to get the 
+rest countries data with GET url and displayed the data on my html page 
+using Bootstrap and DOM manipulation.
